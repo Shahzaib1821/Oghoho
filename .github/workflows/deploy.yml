@@ -42,7 +42,7 @@ jobs:
                   rsync -avz \
                     -e "ssh -i ~/.ssh/deploy_key -p 65002" \
                     ./dist/ \
-                    u139321266@148.135.140.148:/home/u139321266/public_html/
+                    u139321266@148.135.140.148:/home/u139321266/domains/oghoghochiazor.com/public_html/
 
             - name: Cleanup SSH key
               if: always()
