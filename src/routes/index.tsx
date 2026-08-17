@@ -779,7 +779,7 @@ function Footer() {
       </div>
       <div className="mx-auto mt-16 flex max-w-[1440px] flex-col items-start justify-between gap-4 px-6 text-[11px] uppercase tracking-[0.28em] text-muted-foreground md:flex-row md:items-center md:px-12">
         <p>© 2026 Oghogho J Chiazor. All rights reserved.</p>
-        <p>Site built for Oghoghochiazor.com</p>
+
       </div>
     </footer>
   );
