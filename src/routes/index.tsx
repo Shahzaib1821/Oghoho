@@ -104,7 +104,7 @@ function Hero() {
 
       <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 gap-16 px-6 md:grid-cols-12 md:px-12">
         <div className="md:col-span-7">
-          <p className="eyebrow anim-fade-up">A Memoir of Faith, Resilience & the Guiding Hand of God</p>
+          <p className="eyebrow anim-fade-up">A Story of Faith, Resilience and a Guiding Hand</p>
           <h1 className="font-editorial anim-fade-up mt-8 text-[13vw] leading-[0.95] text-foreground md:text-[7.2vw] lg:text-[6.2rem]" style={{ animationDelay: "120ms" }}>
             Behold <em className="italic text-terracotta">the</em> Hand
           </h1>
@@ -112,7 +112,7 @@ function Hero() {
             What was meant to bury you was actually meant to plant you.
           </p>
           <p className="anim-fade-up mt-10 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg" style={{ animationDelay: "260ms" }}>
-            From Benin City to a new beginning abroad, Oghogho J Chiazor's story proves that no delay or detour is wasted in the Hand of God a raw memoir for every dreamer who refuses to be defined by where they started.
+            From Benin to a purposeful new beginning, this story proves that no delay or detour is wasted in the Hand. It serves as a reminder to every dreamer that where you start is only the first page, and should never define where you finish.
           </p>
           <div className="anim-fade-up mt-12 flex flex-wrap items-center gap-8" style={{ animationDelay: "380ms" }}>
             <a
@@ -127,7 +127,7 @@ function Hero() {
               className="group inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.28em] text-foreground"
             >
               <span className="gold-rule" />
-              Read Oghogho's Story
+              Read Her Story
             </a>
           </div>
         </div>
@@ -202,16 +202,16 @@ function AuthorIntro() {
           </h2>
           <div className="mt-10 space-y-6 text-lg leading-relaxed text-foreground/80 md:text-xl md:leading-[1.7]">
             <p>
-              Behold the Hand is the unflinching memoir of a woman shaped by an unseen Hand guiding her even when she couldn't recognise it.
+              Behold the Hand is the unflinching story of a woman shaped by an unseen Hand guiding her even when she couldn't recognise it.
             </p>
             <p>
-              Born into hardship and instability, Oghogho sold farm produce before sunrise, learning early that survival wasn't optional. She endured a dysfunctional family and predators disguised as protectors, yet a whisper of possibility kept her moving forward through university struggles, workplace harassment, and a faith-tested wait for marriage, to a bold migration abroad. A companion for anyone who has felt rejected or unseen, and a reminder that waiting is preparation, not punishment.
+              Born into struggle and instability, she sold farm produce before sunrise, learning early that survival wasn't optional. She endured a dysfunctional family and predators disguised as protectors, yet a whisper of possibility kept her moving forward through university struggles, workplace harassment, and a faith tested wait for marriage, to a bold migration to a new chapter. A companion for anyone who has felt rejected or unseen, and a reminder that waiting is preparation, not punishment.
             </p>
             <p className="font-editorial italic text-terracotta">
-              &ldquo;You will know the truth, and the truth will set you free.&rdquo; — John 8:32
+              Even there shall thy hand lead me, and thy right hand shall hold me. Psalm 139:10
             </p>
             <p className="text-muted-foreground">
-              Inside: releasing a victim mentality, recognising God's voice amid silence, and reflection prompts each chapter.
+              Inside: releasing a victim mentality, learning to recognise a voice within the silence, and reflection prompts each chapter.
             </p>
           </div>
           <div className="mt-10 flex flex-wrap items-center gap-8">
@@ -368,7 +368,7 @@ function Themes() {
         <div className="reveal max-w-3xl">
           <p className="eyebrow">Who This Book Is For</p>
           <p className="font-editorial mt-6 text-3xl leading-snug text-foreground md:text-4xl">
-            Anyone from a dysfunctional family, feeling forgotten, starting over in a new country, or wrestling with unanswered prayer.
+            Anyone from a dysfunctional family, feeling forgotten, waiting for clarity, starting something new or all over in a new country, or wrestling with unanswered prayer.
           </p>
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
             If you've wondered whether your story is too broken to be redeemed, this book was written for you.
@@ -407,7 +407,7 @@ function Book() {
             Your Story Isn&rsquo;t Over
           </h2>
           <p className="mt-8 max-w-lg text-lg leading-relaxed text-muted-foreground">
-            Whatever delay you carry, believe the same Hand that guided Oghogho is guiding you too.
+            Whatever delay you carry, believe the same Hand that guided her is guiding you too.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="#" className="inline-flex items-center gap-3 bg-terracotta px-8 py-4 text-[11px] uppercase tracking-[0.28em] text-primary-foreground transition hover:bg-foreground">
@@ -422,7 +422,7 @@ function Book() {
 
 /* ---------- reviews ---------- */
 const reviews = [
-  { q: "A raw, honest memoir that reminds you delay is not denial.", a: "Early Reader" },
+  { q: "A raw, honest story that reminds you delay is not denial.", a: "Early Reader" },
   { q: "This book will meet you in the waiting, the doubt, and the becoming.", a: "Early Reader" },
 ];
 
@@ -483,13 +483,13 @@ function AuthorSection() {
             Meet Oghogho J <em className="italic text-terracotta">Chiazor</em>
           </h2>
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-foreground/80 md:text-xl md:leading-[1.7]">
-            Oghogho is an author, HR strategist, and community leader shaped by resilience and an unwavering belief that every detour has divine purpose.
+            Oghogho J Chiazor holds a Postgraduate Degree in Human Resources from the prestigious York University and a BSc in Management. With over ten years of experience in Human Resources, she has built a strong track record in people management, organisational development, and strategic leadership. She is also the founder of Enco Logistics and Consulting Ltd.
           </p>
           <p className="mt-6 max-w-xl leading-relaxed text-muted-foreground">
-            She holds a postgraduate degree in Human Resources from York University and founded Enco Logistics and Consulting Ltd. She also convenes the Light Triumphant Prayer Group, supporting widows and children in under-resourced communities.
+            Oghogho is the convener of Light Triumphant Prayer Community, an initiative and community centred on love for God, service to humanity, and spreading light everywhere people go. Through this platform, she has counselled many, initiated several outreach programmes supporting widows and orphanages, while also providing hot lunches for children in impoverished communities.
           </p>
           <p className="mt-6 max-w-xl leading-relaxed text-muted-foreground">
-            From a hard childhood in Benin City to a new life abroad, Oghogho writes with the conviction that no story ends in the pit it started from. Behold the Hand is her debut.
+            As someone who loves music, travelling, art, and community service to the underprivileged, she realised that for others to truly experience and understand her, her thoughts about the world and her life needed to live somewhere lasting. Behold the Hand is her first debut into writing for purpose and liberation.
           </p>
           <a href="#contact" className="mt-12 inline-flex items-center gap-3 border-b border-foreground/40 pb-1 text-[11px] uppercase tracking-[0.28em] text-foreground">
             Connect with Oghogho
@@ -512,7 +512,7 @@ function Social() {
             The book turns on the symbol of “The Hand”  guidance, strength, comfort. Picture a toddler learning to walk, always steadied by a parent's hand.
           </p>
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            “Even there your hand will guide me, your right hand will hold me fast.” — Psalm 139:10
+            “Teaching them to observe all things that I have commanded you, and lo, I am with you always, even to the end of the age. Amen.” — Matthew 28:20
           </p>
         </div>
       </div>
@@ -522,6 +522,7 @@ function Social() {
 
 /* ---------- stay connected ---------- */
 function StayConnected() {
+  const [submitted, setSubmitted] = useState(false);
   return (
     <section id="newsletter" className="py-32 md:py-48" style={{ background: "var(--surface)" }}>
       <div className="mx-auto max-w-[1280px] px-6 md:px-12">
@@ -530,23 +531,37 @@ function StayConnected() {
           <p className="mt-6 text-lg leading-relaxed text-foreground/80 md:text-xl">
             Join the Journey sign up for release updates and reflections from Oghogho.
           </p>
-          <form className="mt-8 flex flex-col gap-4 md:flex-row" onSubmit={(e) => e.preventDefault()}>
-            <input
-              type="email"
-              placeholder="Email Address"
-              required
-              className="flex-1 border-b border-border bg-transparent pb-3 text-2xl text-foreground outline-none transition focus:border-terracotta"
-            />
-            <button
-              type="submit"
-              className="inline-flex items-center gap-3 bg-foreground px-8 py-4 text-[11px] uppercase tracking-[0.28em] text-background transition hover:bg-terracotta"
-            >
-              Subscribe
-            </button>
-          </form>
-          <p className="mt-4 text-sm text-muted-foreground">
-            No spam only encouragement and grace.
-          </p>
+          {submitted ? (
+            <p className="font-editorial mt-8 text-2xl text-foreground">
+              Thank you. <em className="italic text-terracotta">You're on the list.</em>
+            </p>
+          ) : (
+            <form className="mt-8 flex flex-col gap-4 md:flex-row" onSubmit={async (e) => {
+              e.preventDefault();
+              const data = new FormData(e.currentTarget);
+              try {
+                await fetch('api/submit.php', { method: 'POST', body: data });
+              } catch (err) {
+                console.error(err);
+              }
+              setSubmitted(true);
+            }}>
+              <input type="hidden" name="form" value="newsletter" />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                required
+                className="flex-1 border-b border-border bg-transparent pb-3 text-2xl text-foreground outline-none transition focus:border-terracotta"
+              />
+              <button
+                type="submit"
+                className="inline-flex items-center gap-3 bg-foreground px-8 py-4 text-[11px] uppercase tracking-[0.28em] text-background transition hover:bg-terracotta"
+              >
+                Subscribe
+              </button>
+            </form>
+          )}
         </div>
       </div>
     </section>
@@ -561,11 +576,85 @@ function Outreach() {
         <div className="reveal max-w-3xl">
           <p className="eyebrow">Community & Outreach</p>
           <p className="mt-6 text-lg leading-relaxed text-foreground/80 md:text-xl">
-            Through the Light Triumphant Prayer Group, Oghogho continues the mission behind this book: supporting widows and children in under-resourced communities.
+            Through the Light Triumphant Prayer Community, Oghogho continues the mission behind this book: supporting widows and children in under-resourced communities.
           </p>
           <a href="#" className="mt-8 inline-flex items-center gap-3 border-b border-foreground/40 pb-1 text-[11px] uppercase tracking-[0.28em] text-foreground">
             Learn About the Outreach
           </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ---------- pre-order ---------- */
+function PreOrder() {
+  useReveal();
+  const [sent, setSent] = useState(false);
+  return (
+    <section id="preorder" className="paper relative py-32 md:py-48">
+      <div className="mx-auto max-w-[1280px] px-6 md:px-12">
+        <div className="reveal mx-auto max-w-2xl text-center">
+          <p className="eyebrow">Pre-Order</p>
+          <h2 className="font-editorial mt-6 text-4xl text-foreground md:text-5xl">
+            Reserve your copy.
+          </h2>
+          <p className="mt-6 text-lg leading-relaxed text-foreground/80 md:text-xl">
+            Be the first to receive Behold the Hand when it releases. Add your name and email below.
+          </p>
+          {sent ? (
+            <div className="mt-10">
+              <p className="eyebrow">Received</p>
+              <p className="font-editorial mt-4 text-2xl text-foreground">
+                Thank you. <em className="italic text-terracotta">You're on the pre-order list.</em>
+              </p>
+            </div>
+          ) : (
+            <form
+              className="mt-10 space-y-10 text-left"
+              onSubmit={async (e) => {
+                e.preventDefault();
+                const data = new FormData(e.currentTarget);
+                try {
+                  await fetch('api/submit.php', { method: 'POST', body: data });
+                } catch (err) {
+                  console.error(err);
+                }
+                setSent(true);
+              }}
+            >
+              <input type="hidden" name="form" value="preorder" />
+              <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
+                <label className="block">
+                  <span className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground">Name</span>
+                  <input
+                    required
+                    name="name"
+                    type="text"
+                    className="font-editorial mt-3 w-full border-b border-border bg-transparent pb-3 text-2xl text-foreground outline-none transition focus:border-terracotta"
+                  />
+                </label>
+                <label className="block">
+                  <span className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground">Email</span>
+                  <input
+                    required
+                    name="email"
+                    type="email"
+                    className="font-editorial mt-3 w-full border-b border-border bg-transparent pb-3 text-2xl text-foreground outline-none transition focus:border-terracotta"
+                  />
+                </label>
+              </div>
+              <div className="flex items-center justify-end pt-2">
+                <button
+                  type="submit"
+                  className="group inline-flex items-center gap-3 bg-foreground px-8 py-4 text-[11px] uppercase tracking-[0.28em] text-background transition hover:bg-terracotta"
+                >
+                  Add Me to the Pre-Order List
+                  <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
+                </button>
+              </div>
+            </form>
+          )}
         </div>
       </div>
     </section>
@@ -603,11 +692,18 @@ function Contact() {
 
         <form
           className="reveal md:col-span-7 md:pl-10"
-          onSubmit={(e) => {
+          onSubmit={async (e) => {
             e.preventDefault();
+            const data = new FormData(e.currentTarget);
+            try {
+              await fetch('api/submit.php', { method: 'POST', body: data });
+            } catch (err) {
+              console.error(err);
+            }
             setSent(true);
           }}
         >
+          <input type="hidden" name="form" value="contact" />
           {sent ? (
             <div className="flex h-full min-h-[320px] flex-col items-start justify-center border-t border-border pt-10">
               <p className="eyebrow">Received</p>
@@ -623,6 +719,7 @@ function Contact() {
                   <span className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground">Name</span>
                   <input
                     required
+                    name="name"
                     type="text"
                     className="font-editorial mt-3 w-full border-b border-border bg-transparent pb-3 text-2xl text-foreground outline-none transition focus:border-terracotta"
                   />
@@ -631,6 +728,7 @@ function Contact() {
                   <span className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground">Email</span>
                   <input
                     required
+                    name="email"
                     type="email"
                     className="font-editorial mt-3 w-full border-b border-border bg-transparent pb-3 text-2xl text-foreground outline-none transition focus:border-terracotta"
                   />
@@ -640,6 +738,7 @@ function Contact() {
                 <span className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground">Message</span>
                 <textarea
                   required
+                  name="message"
                   rows={4}
                   className="font-editorial mt-3 w-full resize-none border-b border-border bg-transparent pb-3 text-2xl leading-snug text-foreground outline-none transition focus:border-terracotta"
                 />
@@ -697,6 +796,7 @@ function Index() {
       <QuoteBreak />
       <Themes />
       <Book />
+      <PreOrder />
       <Reviews />
       <AuthorSection />
       <Social />
