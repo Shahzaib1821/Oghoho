@@ -1,0 +1,49 @@
+name: Deploy to Hostinger
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 24
+                  cache: npm
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Build React app
+              run: npm run build
+
+            - name: Verify build
+              run: |
+                  echo "Build output:"
+                  ls -la dist/
+
+            - name: Setup SSH key
+              run: |
+                  mkdir -p ~/.ssh
+                  echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+                  chmod 600 ~/.ssh/deploy_key
+                  ssh-keyscan -p 65002 148.135.140.148 >> ~/.ssh/known_hosts
+
+            - name: Deploy to Hostinger
+              run: |
+                  rsync -avz \
+                    -e "ssh -i ~/.ssh/deploy_key -p 65002" \
+                    ./dist/ \
+                    u139321266@148.135.140.148:/home/u139321266/public_html/
+
+            - name: Cleanup SSH key
+              if: always()
+              run: rm -f ~/.ssh/deploy_key
