@@ -256,7 +256,7 @@ const chapters = [
   },
   {
     n: "V",
-    title: "Enter Resilience and Strategy",
+    title: "Focus and Audacity",
     quote: "",
     body: "",
   },
