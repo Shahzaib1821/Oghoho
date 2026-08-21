@@ -280,7 +280,7 @@ const chapters = [
   },
   {
     n: "Bonus",
-    title: "How I Learnt to Overcome Delay.",
+    title: "How I Learnt to Overcome Delay",
     quote: "",
     body: "",
   },
@@ -512,7 +512,7 @@ function Social() {
             The book turns on the symbol of “The Hand”  guidance, strength, comfort. Picture a toddler learning to walk, always steadied by a parent's hand.
           </p>
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            “Teaching them to observe all things that I have commanded you, and lo, I am with you always, even to the end of the age. Amen.” — Matthew 28:20
+            Matthew 28:20, Teaching them to observe all things that I have commanded you, and lo, I am with you always, even to the end of the age. Amen.
           </p>
         </div>
       </div>
@@ -578,7 +578,7 @@ function Outreach() {
           <p className="mt-6 text-lg leading-relaxed text-foreground/80 md:text-xl">
             Through Light Triumphant Prayer Community, she continues the mission behind the book by building a community of people who love God and humanity and are committed to being God's light in the world. The community supports widows, children, and other initiatives that serve under-resourced communities.
           </p>
-          <p className="mt-6 text-lg leading-relaxed text-forground/80 md:text-xl">
+          <p className="mt-6 text-lg leading-relaxed text-foreground/80 md:text-xl">
             In addition, we have a book club centered on reading, learning, and meaningful discussion, with the goal of encouraging the personal, spiritual, and overall growth and exposure of every community member.
           </p>
           <a href="#" className="mt-8 inline-flex items-center gap-3 border-b border-foreground/40 pb-1 text-[11px] uppercase tracking-[0.28em] text-foreground">
