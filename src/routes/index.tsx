@@ -280,7 +280,7 @@ const chapters = [
   },
   {
     n: "Bonus",
-    title: "Bonus: Overcoming Delay and Sustaining Your Wins",
+    title: "How I Learnt to Overcome Delay.",
     quote: "",
     body: "",
   },
@@ -576,7 +576,10 @@ function Outreach() {
         <div className="reveal max-w-3xl">
           <p className="eyebrow">Community & Outreach</p>
           <p className="mt-6 text-lg leading-relaxed text-foreground/80 md:text-xl">
-            Through the Light Triumphant Prayer Community, Oghogho continues the mission behind this book: supporting widows and children in under-resourced communities.
+            Through Light Triumphant Prayer Community, she continues the mission behind the book by building a community of people who love God and humanity and are committed to being God's light in the world. The community supports widows, children, and other initiatives that serve under-resourced communities.
+          </p>
+          <p className="mt-6 text-lg leading-relaxed text-forground/80 md:text-xl">
+            In addition, we have a book club centered on reading, learning, and meaningful discussion, with the goal of encouraging the personal, spiritual, and overall growth and exposure of every community member.
           </p>
           <a href="#" className="mt-8 inline-flex items-center gap-3 border-b border-foreground/40 pb-1 text-[11px] uppercase tracking-[0.28em] text-foreground">
             Learn About the Outreach
